@@ -1,0 +1,51 @@
+[
+  {
+    "id": 2,
+    "description": "clean room",
+    "status": "in-progress",
+    "createdAt": "2025-11-18T03:03:18.182Z",
+    "updatedAt": "2025-11-18T06:47:26.454Z"
+  },
+  {
+    "id": 3,
+    "description": "Study code",
+    "status": "todo",
+    "createdAt": "2025-11-18T03:03:26.402Z",
+    "updatedAt": "2025-11-18T03:03:26.403Z"
+  },
+  {
+    "id": 4,
+    "description": "Read book",
+    "status": "done",
+    "createdAt": "2025-11-18T03:37:25.542Z",
+    "updatedAt": "2025-11-18T06:47:54.786Z"
+  },
+  {
+    "id": 5,
+    "description": "Excercise for 30 mins",
+    "status": "todo",
+    "createdAt": "2025-11-18T03:37:40.165Z",
+    "updatedAt": "2025-11-18T03:37:40.165Z"
+  },
+  {
+    "id": 5,
+    "description": "Update your todo",
+    "status": "todo",
+    "createdAt": "2025-11-18T04:29:37.756Z",
+    "updatedAt": "2025-11-18T04:29:37.757Z"
+  },
+  {
+    "id": 6,
+    "description": "Draw",
+    "status": "in-progress",
+    "createdAt": "2025-11-18T06:46:58.818Z",
+    "updatedAt": "2025-11-18T07:30:16.024Z"
+  },
+  {
+    "id": 7,
+    "description": "Write Project Proposal",
+    "status": "todo",
+    "createdAt": "2025-11-18T07:29:52.231Z",
+    "updatedAt": "2025-11-18T07:29:52.232Z"
+  }
+]
