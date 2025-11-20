@@ -25,7 +25,7 @@ A simple and efficient command-line interface (CLI) application to track and man
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/task-tracker-cli.git
+git clone https://github.com/Anushkaa-80/Backend-Projects.git
 cd task-tracker-cli
 ```
 
@@ -92,14 +92,8 @@ node task-cli.js mark-done 1
 # Output: Task 1 marked as done!
 ```
 
-## 📂 Project Structure
-```
-task-tracker-cli/
-├── task-cli.js       # Main application file
-├── task.json         # JSON file for storing tasks (auto-generated)
-├── package.json      # Project metadata and dependencies
-└── README.md         # Project documentation
-```
+
+
 
 ## 🔧 Task Properties
 
@@ -152,7 +146,7 @@ The application handles various error cases:
 
 **Example:**
 ```bash
-node task-cli.js update 999 "This won't work"
+node task-cli.js update 100 "This won't work"
 # Output: Error: Task with ID 999 not found!
 ```
 
@@ -207,10 +201,11 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-**Your Name**
+**Anushka Chaurasia**
 
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+- GitHub: [@Anushkaa-80
+](https://github.com/Anushkaa-80)
+<!-- - LinkedIn: [Your LinkedIn](https://linkedin.com/in/YOUR_PROFILE) -->
 
 ## 🙏 Acknowledgments
 
