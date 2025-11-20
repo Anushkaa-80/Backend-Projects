@@ -179,7 +179,7 @@ This project helped me learn:
 - Building CLI applications
 - Writing clean, maintainable code
 
-## 🚀 Future Enhancements
+<!-- ## 🚀 Future Enhancements
 
 Potential features to add:
 
@@ -189,7 +189,7 @@ Potential features to add:
 - [ ] Search tasks by keywords
 - [ ] Export tasks to CSV
 - [ ] Add colors to CLI output
-- [ ] Make it a global npm package
+- [ ] Make it a global npm package -->
 
 ## 🤝 Contributing
 
