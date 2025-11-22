@@ -3,7 +3,6 @@
 A simple and efficient command-line interface (CLI) application to track and manage your tasks. Built with Node.js, this project helps you organize your daily tasks, mark their progress, and maintain productivity.
 
 **Project URL:** https://roadmap.sh/projects/task-tracker
-
 ## 📋 Features
 
 - ✅ **Add tasks** - Create new tasks with unique IDs
