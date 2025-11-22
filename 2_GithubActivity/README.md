@@ -1,9 +1,8 @@
+**Project URL:** https://roadmap.sh/projects/github-user-activity
+
 # GitHub Activity CLI
 
 A command-line tool to fetch and display recent activity of any GitHub user using the GitHub API.
-
-**Project URL:** https://roadmap.sh/projects/github-user-activity
-https://roadmap.sh/projects/task-tracker
 
 ## Features
 
