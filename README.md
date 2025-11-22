@@ -125,8 +125,7 @@ Feel free to:
 
 ## 📞 Connect With Me
 
-- **GitHub:** [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- **LinkedIn:** [Your Profile](https://linkedin.com/in/YOUR_PROFILE)
+- **GitHub:** [@Anushkaa-80](https://github.com/Anushkaa-80)
 
 ## 🙏 Acknowledgments
 
