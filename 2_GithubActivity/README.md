@@ -2,15 +2,14 @@
 
 A command-line tool to fetch and display recent activity of any GitHub user using the GitHub API.
 
-## 🔗 Project Information
+**Project URL:** https://roadmap.sh/projects/github-user-activity
 
-- **Project Idea:** [GitHub User Activity - roadmap.sh](https://roadmap.sh/projects/github-user-activity)
-- **Repository:** [github.com/Anushkaa-80/backend/2_GithubActivity](https://github.com/Anushkaa-80/Backend-Projects/tree/backend/2_GithubActivity)
+## 🔗 Repository Information
+
+- **GitHub Repository:** https://github.com/Anushkaa-80/Backend-Projects/tree/backend/2_GithubActivity
+- **Author:** [@Anushkaa-80](https://github.com/Anushkaa-80)
+
 ---
-
-
-
-
 
 ## Features
 
@@ -23,7 +22,7 @@ A command-line tool to fetch and display recent activity of any GitHub user usin
 ## Installation
 ```bash
 git clone https://github.com/Anushkaa-80/Backend-Projects.git
-cd github-activity-cli
+cd Backend-Projects/2_GithubActivity
 ```
 
 **Requirements:** Node.js v14 or higher
@@ -92,7 +91,15 @@ https://api.github.com/users/<username>/events
 
 ## Author
 
-**Your Name**
+**Anushka**
 - GitHub: [@Anushkaa-80](https://github.com/Anushkaa-80)
+- Portfolio: [Backend Projects Collection](https://github.com/Anushkaa-80/Backend-Projects)
+
+## Acknowledgments
+
+- Project from [roadmap.sh](https://roadmap.sh/projects/github-user-activity)
+- Built as part of backend development learning path
+
+---
 
 ⭐ Star this repo if you found it helpful!
