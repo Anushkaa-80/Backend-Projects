@@ -20,11 +20,11 @@ function writeTasks(tasks) {
   fs.writeFileSync(FILE_PATH, data, "utf8");
 }
 
-const args = process.argv;
+const args = process.argv; //used to get command line arguments 
 
-const command = args[2];
+const command = args[2]; //get the command (add, list, update, delete, etc.)
 
-const taskArgs = args.slice(3);
+const taskArgs = args.slice(3);  //get all argument after 3rd index
 
 if (command === "add") {
   const description = taskArgs[0];

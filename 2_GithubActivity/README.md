@@ -1,8 +1,16 @@
-**Project URL:** https://roadmap.sh/projects/github-user-activity
-
 # GitHub Activity CLI
 
 A command-line tool to fetch and display recent activity of any GitHub user using the GitHub API.
+
+## 🔗 Project Information
+
+- **Project Idea:** [GitHub User Activity - roadmap.sh](https://roadmap.sh/projects/github-user-activity)
+- **Repository:** [github.com/Anushkaa-80/backend/2_GithubActivity](https://github.com/Anushkaa-80/Backend-Projects/tree/backend/2_GithubActivity)
+---
+
+
+
+
 
 ## Features
 
@@ -14,7 +22,7 @@ A command-line tool to fetch and display recent activity of any GitHub user usin
 
 ## Installation
 ```bash
-git clone https://github.com/YOUR_USERNAME/github-activity-cli.git
+git clone https://github.com/Anushkaa-80/Backend-Projects.git
 cd github-activity-cli
 ```
 
@@ -86,12 +94,5 @@ https://api.github.com/users/<username>/events
 
 **Your Name**
 - GitHub: [@Anushkaa-80](https://github.com/Anushkaa-80)
-
-## Acknowledgments
-
-- Project idea from [roadmap.sh](https://roadmap.sh/projects/github-user-activity)
-- Built as part of backend development learning path
-
----
 
 ⭐ Star this repo if you found it helpful!
