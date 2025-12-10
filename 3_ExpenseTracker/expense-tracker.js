@@ -2,8 +2,10 @@
 
 
 const fs = require('fs');
-const path = require('path')
-const {Command} = require('commander');
+const path = require('path');
+const { Command } = require('commander');
+
+// SECTION 2: Setup and Configuration
 const program = new Command();
 
 const EXPENSES_FILE = path.join(__dirname, 'expenses.json');
