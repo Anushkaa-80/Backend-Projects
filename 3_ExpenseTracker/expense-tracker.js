@@ -58,6 +58,6 @@ function getNextId(expenses)
     if (expenses.length === 0 ) return 1;
      
     // Find the highest ID and add 1
-    const maxid= Math.max(...expenses.map(e=> e.id));
-    
+    const maxId= Math.max(...expenses.map(e=> e.id));
+    return maxId +1;
 }
