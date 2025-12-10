@@ -2,10 +2,8 @@
 
 
 const fs = require('fs');
-const path = require('path');
-const { Command } = require('commander');
-
-// SECTION 2: Setup and Configuration
+const path = require('path')
+const {Command} = require('commander');
 const program = new Command();
 
 const EXPENSES_FILE = path.join(__dirname, 'expenses.json');
@@ -28,9 +26,6 @@ const data = fs.readFileSync(EXPENSES_FILE, 'utf-8');
       return [];
     }
 }
-console.log('Testing readExpenses function ..');
-const expenses = readExpenses();
-console.log('expen found:', expenses);
 
 
 
@@ -63,3 +58,53 @@ function getNextId(expenses)
     const maxId= Math.max(...expenses.map(e=> e.id));
     return maxId +1;
 }
+
+
+//SECTION4: COmmand Implementation 
+
+function addExpense(description, amount)
+{
+    const parsedAmount = parseFloat(amount);
+
+    if(isNaN(parsedAmount) || parsedAmount<=0)
+    {
+        console.error('Error Amount must be a positive number');
+        return ;
+    }
+    //Step 2: Validate description (make sure its not empty)
+    if(!description || description.trim()=='')
+    {
+        console.error('Error: Description cannot be empty');
+        return;
+    }
+     //step 3: Read existing expenses from file
+     const expenses = readExpenses();
+
+     const newExpense ={
+        id: getNextId(expenses),
+       // "Get today, convert to standard format, extract just the date part"
+        date: new Date(). // Creates todays date object
+        toISOString().  // Converts to: "2024-12-10T14:30"45.123Z"
+        split('T') //Splits at 'T': ["2024-12-10", "14:30:45.123Z"]
+        [0] ,// Takes first part: "2024-12-10"
+        description: description.trim(),
+        amount: parsedAmount
+     };
+
+     expenses.push(newExpense);
+     writeExpenses(expenses);
+
+
+     console.log(`Expense added successfully (ID:${newExpense.id})`);
+    
+
+}
+ program
+     .command('add')
+     .description('Add a new expense')
+     .requiredOption('--description <description> ', 'Descprition of the expenses')
+     .requiredOption('--amount <amount>', 'Amount of the expense')
+     .action((options) => {
+        addExpense(options.description, options.amount);
+     });
+program.parse(process.argv);
