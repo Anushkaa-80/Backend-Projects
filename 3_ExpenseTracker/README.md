@@ -202,7 +202,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@Anushkaa-80](https://github.com/Anushkaa-80)
 
 ## 🙏 Acknowledgments
 
