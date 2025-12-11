@@ -107,4 +107,52 @@ function addExpense(description, amount)
      .action((options) => {
         addExpense(options.description, options.amount);
      });
+     program.command('list')
+     .description('List all expenses')
+     .action(()=>{
+        listExpenses();
+     })
 program.parse(process.argv);
+
+function listExpenses()
+{
+    const expenses = readExpenses();
+    if(expenses.length === 0)
+    {
+        console.log('No expenses found');
+        return;
+    }
+    // Step 3: Print table header
+  console.log('ID  Date       Description       Amount');
+  console.log('--- ---------- ----------------- ------');
+
+  expenses.forEach(expense => {
+    const id = String(expense.id).padEnd(3);
+    const date= expense.date.padEnd(10);
+    const description = expense.description.padEnd(17);
+    const amount = `$${expense.amount}`;
+        console.log(`${id} ${date} ${description} ${amount}`);
+
+  });
+}
+
+function deleteExpense(id)
+{
+    const expenses = readExpenses();
+      // Step 2: Find the index of expense with this ID
+    const index= expenses.findIndex(e=> e.id === parseInt(id));
+    if(index === -1)
+    {
+        console.error(`Error : Expense with ID ${id} not found`);
+        return;
+    }
+    expenses.splice(index,1); //Means: "Remove 1 item at position index"
+    console.log('Expense deleted successfully');
+}
+program 
+.command('delete')
+.description('Delete an expense')
+.requiredOption('--id <id>', 'ID of the expense to delete')
+.action((options)=>{
+    deleteExpense(options.id);
+})
