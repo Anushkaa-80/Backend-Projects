@@ -1,5 +1,5 @@
 # 💰 Expense Tracker CLI
-
+ **Project URL:** https://roadmap.sh/projects/expense-tracker
 A simple and efficient command-line expense tracker application built with Node.js. Track your daily expenses, view summaries, and manage your finances right from your terminal!
 
 ## 📋 Features
